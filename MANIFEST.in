@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ldapsync *.css
+recursive-include ldapsync *.csv
+recursive-include ldapsync *.html
+recursive-include ldapsync *.ico
+recursive-include ldapsync *.js
+recursive-include ldapsync *.json
+recursive-include ldapsync *.md
+recursive-include ldapsync *.png
+recursive-include ldapsync *.py
+recursive-include ldapsync *.svg
+recursive-include ldapsync *.txt
+recursive-exclude ldapsync *.pyc
