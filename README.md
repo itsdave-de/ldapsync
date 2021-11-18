@@ -1,7 +1,7 @@
 ## ldapsync
 
-Sync ERPNext Contacts to LDAP or Active Directory
+Sync Frappe / ERPNext Contacts to LDAP / Active Directory
 
 #### License
 
-MIT
+GPLv3

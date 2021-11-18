@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-11-17 19:45:38.822259",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sync_enabled",
+  "server",
+  "user",
+  "password",
+  "basepath",
+  "test_connection",
+  "sync_all_contacts"
+ ],
+ "fields": [
+  {
+   "fieldname": "server",
+   "fieldtype": "Data",
+   "label": "Server"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "label": "User"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "test_connection",
+   "fieldtype": "Button",
+   "label": "Test Connection",
+   "options": "test_connection"
+  },
+  {
+   "fieldname": "basepath",
+   "fieldtype": "Data",
+   "label": "Basepath"
+  },
+  {
+   "default": "0",
+   "fieldname": "sync_enabled",
+   "fieldtype": "Check",
+   "label": "Sync Enabled"
+  },
+  {
+   "fieldname": "sync_all_contacts",
+   "fieldtype": "Button",
+   "label": "Sync all Contacts",
+   "options": "sync_all_contacts"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-11-18 00:48:44.417984",
+ "modified_by": "Administrator",
+ "module": "ldapsync",
+ "name": "ldapsync Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

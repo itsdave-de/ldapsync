@@ -97,6 +97,12 @@ app_license = "MIT"
 #	}
 # }
 
+doc_events = {
+	"Contact": {
+		"on_update": "ldapsync.tools.invoke_contact_sync"
+	}
+}
+
 # Scheduled Tasks
 # ---------------
 
